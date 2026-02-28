@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cromite Browser</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Cromite Browser</h1>
+  <nav>
+    <a href="#download">Download</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+    <button id="themeToggle">🌙</button>
+  </nav>
+</header>
+
+<main>
+  <!-- Hero Section -->
+  <section id="hero">
+    <img src="images/hero.png" alt="Hero Image" class="hero-image">
+    <h2>Fast. Secure. Customizable.</h2>
+    <p>The next-gen web browser built for speed and privacy.</p>
+    <a href="#download" class="btn">Download Now</a>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Features</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <img src="images/adblock.png" alt="Ad Blocker">
+        <h3>Ad Blocker</h3>
+        <p>Browse without annoying ads.</p>
+      </div>
+      <div class="feature">
+        <img src="images/vpn.png" alt="VPN">
+        <h3>VPN</h3>
+        <p>Secure your connection anywhere.</p>
+      </div>
+      <div class="feature">
+        <img src="images/extensions.png" alt="Extensions">
+        <h3>Extensions</h3>
+        <p>Supports Google Chrome extensions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download">
+    <h2>Download</h2>
+    <p>Available for Windows 64-bit</p>
+    <a href="CromiteBrowserSetup.exe" class="btn download-badge">
+      <img src="images/windows-icon.png" alt="Windows"> Download Installer
+    </a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Cromite Software</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
